@@ -16,6 +16,14 @@ class Solution{
     int kthSmallest(int arr[], int l, int r, int k) {
         sort(arr+l,arr+r+1);
         return arr[k-1];
+     
+     
+     
+        // For kth greatest number   
+       // sort(arr+l,arr+r+1,greater<int>());
+       
+        
+    }
         
     }
 };
